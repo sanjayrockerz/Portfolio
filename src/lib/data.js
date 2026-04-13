@@ -6,7 +6,7 @@ export const PROJECTS = [
     tagline: 'Paying Guest · Property Management Platform',
     description:
       'Full-scale SaaS platform for PG (Paying Guest) accommodation management — tenant onboarding, rent tracking, maintenance requests, and owner dashboard. Paid ₹20,000 by a Rajasthan-based client. Production-deployed with real tenants actively using the system.',
-    url: 'https://khush-project.vercel.app/',
+    url: 'https://github.com/sanjayrockerz',
     github: 'https://github.com/sanjayrockerz',
     revenue: '₹20,000',
     revenueLabel: 'Paid · Rajasthan Client',
@@ -174,8 +174,8 @@ export const TECH_NODES = [
 // ─── Cycling hero roles ───────────────────────────────────────────────────────
 export const HERO_ROLES = [
   'Full-Stack Engineer',
-  'ML Research Enthusiast',
-  'React Developer',
+  'Freelance Developer · $400+ Earned',
+  'SaaS Builder',
   'AI App Builder',
   'Data Science Student',
   'Open to Internships',
@@ -195,17 +195,17 @@ export const TERMINAL_SEQUENCE = [
     'fullstack/    →  React · Node · MongoDB · Express',
     'ai_ml/        →  TensorFlow · Streamlit · OpenCV',
   ]},
-  { delay: 4600, cmd: 'cat achievements.json', output: [
+  { delay: 4600, cmd: 'cat earnings.json', output: [
     '{',
-    '  "leetcode":    "230+ problems solved",',
-    '  "pg_saas":     "₹20,000 — PG SaaS (Rajasthan client)",',
-    '  "tra_freight": "$400–$500/mo — TRA Freight (freelance)",',
-    '  "sih":         "Internal SIH selection @ RMK",',
-    '  "iit":         "B.S. Data Science — ongoing"',
+    '  "total_earned":  "$400+ USD across freelance projects",',
+    '  "pg_saas":       "₹20,000 — PG SaaS (Rajasthan client, live)",',
+    '  "tra_freight":   "$400–$500/mo — TRA Logistics (ongoing)",',
+    '  "sih_selection": "Internal SIH pick @ RMK College",',
+    '  "iit_bs":        "B.S. Data Science — IIT Madras, ongoing"',
     '}',
   ]},
-  { delay: 6800, cmd: 'echo "Available for internships!"', output: [
-    '✅  Earning $400–$500/mo + ₹20k SaaS deal — still open to more!',
+  { delay: 6800, cmd: 'npm run status', output: [
+    '✅  $400+ earned | 2 live SaaS products | Open for more work!',
   ]},
 ]
 
@@ -219,9 +219,9 @@ export const SOCIAL = {
 
 // ─── Achievements strip ───────────────────────────────────────────────────────
 export const ACHIEVEMENTS = [
-  { label: '230+',       sub: 'LeetCode Solves',         icon: '💡', color: '#f59e0b' },
-  { label: '₹20k',       sub: 'PG SaaS · Rajasthan',     icon: '🏢', color: '#0ea5e9' },
-  { label: '$400–500',   sub: 'Monthly · TRA Freight',   icon: '💰', color: '#10b981' },
-  { label: 'IIT',        sub: 'B.S. Data Science',       icon: '🎓', color: '#f97316' },
-  { label: 'SIH',        sub: 'College Selection',       icon: '🤖', color: '#8b5cf6' },
+  { label: '$400+',  sub: 'Total USD Earned',       icon: '💵', color: '#10b981' },
+  { label: '₹20k',   sub: 'PG SaaS · Rajasthan',   icon: '🏢', color: '#0ea5e9' },
+  { label: '230+',   sub: 'LeetCode Solves',        icon: '💡', color: '#f59e0b' },
+  { label: 'IIT',    sub: 'B.S. Data Science',      icon: '🎓', color: '#f97316' },
+  { label: 'SIH',    sub: 'College Selection',      icon: '🤖', color: '#8b5cf6' },
 ]

@@ -147,7 +147,7 @@ export default function HeroSection() {
               >
                 <span className="section-eyebrow">
                   <Zap size={10} className="inline mr-1" />
-                  Available for Internships &amp; Freelance
+                  $400+ Earned Freelancing · Open for Work
                 </span>
               </motion.div>
 
