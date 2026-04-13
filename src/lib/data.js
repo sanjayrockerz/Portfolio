@@ -1,15 +1,34 @@
 // ─── Projects ────────────────────────────────────────────────────────────────
 export const PROJECTS = [
   {
+    id: 'pg-saas',
+    name: 'PG Management SaaS',
+    tagline: 'Paying Guest · Property Management Platform',
+    description:
+      'Full-scale SaaS platform for PG (Paying Guest) accommodation management — tenant onboarding, rent tracking, maintenance requests, and owner dashboard. Paid ₹20,000 by a Rajasthan-based client. Production-deployed with real tenants actively using the system.',
+    url: 'https://khush-project.vercel.app/',
+    github: 'https://github.com/sanjayrockerz',
+    revenue: '₹20,000',
+    revenueLabel: 'Paid · Rajasthan Client',
+    status: 'production',
+    statusLabel: 'Live Production',
+    tags: ['React', 'Node.js', 'Supabase', 'Tailwind', 'Vercel', 'SaaS'],
+    gradient: 'from-sky-500 via-blue-500 to-indigo-500',
+    accentColor: '#0ea5e9',
+    icon: '🏢',
+    domain: 'fullstack',
+    highlight: true,
+  },
+  {
     id: 'tra',
     name: 'TRA Freight Network',
     tagline: 'Logistics Intelligence Platform',
     description:
-      'Full-stack freight-logistics platform connecting truck owners & transporters across India. Real-time route optimization, live load tracking, driver-facing mobile UI. Delivered as a paid freelance project.',
+      'Full-stack freight-logistics platform connecting truck owners & transporters across India. Real-time route optimization, live load tracking, driver-facing mobile UI. Earning $400–$500/month as a paid freelance project — international client.',
     url: 'https://tra-connect.vercel.app/',
     github: 'https://github.com/sanjayrockerz',
-    revenue: '₹10,000',
-    revenueLabel: 'Paid Freelance',
+    revenue: '$400–$500',
+    revenueLabel: 'Monthly · Freelance',
     status: 'production',
     statusLabel: 'Live Production',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind', 'Vercel'],
@@ -178,14 +197,15 @@ export const TERMINAL_SEQUENCE = [
   ]},
   { delay: 4600, cmd: 'cat achievements.json', output: [
     '{',
-    '  "leetcode":  "230+ problems solved",',
-    '  "revenue":   "₹10,000 paid freelance (TRA)",',
-    '  "sih":       "Internal SIH selection @ RMK",',
-    '  "iit":       "B.S. Data Science — ongoing"',
+    '  "leetcode":    "230+ problems solved",',
+    '  "pg_saas":     "₹20,000 — PG SaaS (Rajasthan client)",',
+    '  "tra_freight": "$400–$500/mo — TRA Freight (freelance)",',
+    '  "sih":         "Internal SIH selection @ RMK",',
+    '  "iit":         "B.S. Data Science — ongoing"',
     '}',
   ]},
   { delay: 6800, cmd: 'echo "Available for internships!"', output: [
-    '✅  Available for internships & freelance!',
+    '✅  Earning $400–$500/mo + ₹20k SaaS deal — still open to more!',
   ]},
 ]
 
@@ -199,9 +219,9 @@ export const SOCIAL = {
 
 // ─── Achievements strip ───────────────────────────────────────────────────────
 export const ACHIEVEMENTS = [
-  { label: '230+',  sub: 'LeetCode Solves',    icon: '💡', color: '#f59e0b' },
-  { label: '₹10k',  sub: 'Paid Freelance',     icon: '💰', color: '#10b981' },
-  { label: 'IIT',   sub: 'B.S. Data Science',  icon: '🎓', color: '#f97316' },
-  { label: 'SIH',   sub: 'College Selection',  icon: '🤖', color: '#8b5cf6' },
-  { label: '4+',    sub: 'Live Deployments',   icon: '🚀', color: '#06b6d4' },
+  { label: '230+',       sub: 'LeetCode Solves',         icon: '💡', color: '#f59e0b' },
+  { label: '₹20k',       sub: 'PG SaaS · Rajasthan',     icon: '🏢', color: '#0ea5e9' },
+  { label: '$400–500',   sub: 'Monthly · TRA Freight',   icon: '💰', color: '#10b981' },
+  { label: 'IIT',        sub: 'B.S. Data Science',       icon: '🎓', color: '#f97316' },
+  { label: 'SIH',        sub: 'College Selection',       icon: '🤖', color: '#8b5cf6' },
 ]
